@@ -3,14 +3,17 @@
 sisi = 10
 
 # 1. Menggunakan For
+print("awal dari program 1")
 
 # dummy variable
 count = 1
 for i in range(sisi):
     print("*"*count)
     count += 1
+print("akhir dari program 1")
 
 # 2. Menggunakan while
+print("awal dari program 2")
 
 count = 1
 while True:
@@ -19,10 +22,10 @@ while True:
 
     if count > sisi:
         break
-print("akhir dari program")
+print("akhir dari program 2")
 # 3. hanya ganjil saja
 
-print("awal program")
+print("awal program 3")
 count = 1
 
 while True:
@@ -39,13 +42,10 @@ while True:
     if count > sisi:
         break
  
-print("akhir dari program")
-
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:2181095959.
-print("akhir dari program")
+print("akhir dari program 3")
 # 4. hanya ganjil saja
 
-print("awal program")
+print("awal program 4")
 count = 1
 spasi = int(sisi/2)
 
@@ -64,6 +64,4 @@ while True:
     if count > sisi:
         break
  
-print("akhir dari program")
-
-#
+print("akhir dari program 4")

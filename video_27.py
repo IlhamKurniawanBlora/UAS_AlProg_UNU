@@ -22,3 +22,11 @@ while True:
     angka += 1
     print(f"count = {angka}")
 
+    if angka == data_int:
+        print("nice!")
+        break
+
+    print("wassup!")
+
+print("cukuuup finish!")
+

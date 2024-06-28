@@ -30,7 +30,7 @@ print("akhir dari program 3 \n")
 
 # menggunakan string
 
-data_str = "saya ganteng abiees"
+data_str = "ilham ganteng abiees"
 
 for huruf in data_str:
   print(huruf)
